@@ -91,39 +91,48 @@ section article p {
 }
 
 .celeste {
-	color: blue;
+	color: #67d6ff;
 }
 
 .amarillo {
-	color: yellow;
+	color: #f9d423;
 }
 
 .naranja {
-	color: orange;
+	color: #ff9359;
 }
 
 .rojo {
-	color: red;	
+	color: #f75f40;	
 }
 .destacado	{
 	font-family: Open sans;
-	color:blue;
+	color:#01aff4;
 	font-weight: 700;
 }
 
-footer h2 {	
+footer div h2 {	
 	font-family: Raleway;
 	font-weight: 400;
+	color:#ffffff;
+	background-color:#142E3F;
 
 }
 
-footer h6 {	
+footer div h6 {	
 	font-family: Raleway;
 	font-weight: 400;
+	color:#ffffff;
+	background-color: #091722;
 }
 
 footer a {
 	font-family: Raleway;
 	font-weight: 700;
 	font-size: 10px;
+	color:#ffffff;
+}
+
+footer {
+	background-color: #091722;
 }
