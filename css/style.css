@@ -1,0 +1,129 @@
+.inicio	a {	
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 10px;
+	text-transform: uppercase;
+
+}
+nav h1 {
+	font-family: Raleway;
+	font-weight: 800;
+	font-size: 40px;
+}
+
+nav h3	{
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 18px;
+}
+#searchbox {
+	font-family: Raleway;
+	font-weight: 400;
+}
+
+.wid article h2{
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+section article p {	
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.services h2 {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 50px;
+}
+.services h4 {	
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.subh4 h4 {
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.subh3 {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.packages h5 {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.packages h1 {
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+.packages h6 {
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 10px;
+}
+
+.potencia {
+	font-size: 20px;
+}
+
+.packages table {
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.celeste {
+	color: blue;
+}
+
+.amarillo {
+	color: yellow;
+}
+
+.naranja {
+	color: orange;
+}
+
+.rojo {
+	color: red;	
+}
+.destacado	{
+	font-family: Open sans;
+	color:blue;
+	font-weight: 700;
+}
+
+footer h2 {	
+	font-family: Raleway;
+	font-weight: 400;
+
+}
+
+footer h6 {	
+	font-family: Raleway;
+	font-weight: 400;
+}
+
+footer a {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 10px;
+}
