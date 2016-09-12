@@ -2,216 +2,260 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Trabajo Práctico 3</title>
+	<title>Trabajo Práctico</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:400,700,800" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 <body>
-	<header>
+	<div class="contenedor">
 		<nav class="inicio">
 			<img src="images/header-logo.png">
-			<a href="home.html">
-				Home
-			</a>
-			<a href="contact.html">
-				Contact
-			</a>
-			<img src="images/indexbanner-bg3.jpg">
+			<ul class="menu">
+				<li>
+					<a href="index.html">
+						Home
+					</a>
+				</li>
+				<li>
+					<a href="contact.html">
+						Contact
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<header>
+		<div class="contenedor">	
+			<div class="background-header">
+				<img src="images/indexbanner-bg3.jpg">
+			</div>	
 			<h1>Regular Updates</h1>
 			<h3>Curabitur ultricies elementum mauris eu dapibus dui aliquet mauris euismod neque a molestie</h3>
-		</nav>
-		<div>
-			<form id="searchbox" action="">
-	    		<input id="search" type="text" placeholder="Enter your domain name and hit enter">
-	    		<input id="submit" type="submit" value="Search">
-			</form>
+			
+			<div>
+				<form id="searchbox" action="">
+		    		<input id="search" type="text" placeholder="Enter your domain name and hit enter">
+		    		<input id="submit" type="submit" value="Search" class="busqueda">
+				</form>
+			</div>
 		</div>
 	</header>
 	<section class="wid">
-		<article>
-			<img src="images/wid1.png">
-			<h2>Speed Servers</h2>
-			<p>Nunc lacinia non diam eget efficitur curabitur tristique diam.</p>
-		</article>
-		<img src="images/widdot.png">
-		<article>
-			<img src="images/wid2.png">
-			<h2>Hostro Services</h2>
-			<p>Nunc lacinia non diam eget efficitur curabitur tristique diam.</p>
-		</article>
-		<img src="images/widdot.png">
-		<article>
-			<img src="images/wid3.png">
-			<h2>Live Support</h2>
-			<p>Nunc lacinia non diam eget efficitur curabitur tristique diam.</p>
-		</article>
-		<img src="images/widdot.png">
-		<article>
-			<img src="images/wid4.png">
-			<h2>Get Domain Name</h2>
-			<p>Nunc lacinia non diam eget efficitur curabitur tristique diam.</p>
-		</article>
+		<div class="contenedor">
+			<article>
+				<img src="images/wid1.png" class="iconos">
+				<h2>Speed Servers</h2>
+				<p>Nunc lacinia non diam eget efficitur curabitur tristique diam.</p>
+			</article>
+			<img src="images/widdot.png" class="dots">
+			<article>
+				<img src="images/wid2.png" class="iconos">
+				<h2>Hostro Services</h2>
+				<p>Nunc lacinia non diam eget efficitur curabitur tristique diam.</p>
+			</article>
+			<img src="images/widdot.png" class="dots">
+			<article>
+				<img src="images/wid3.png" class="iconos">
+				<h2>Live Support</h2>
+				<p>Nunc lacinia non diam eget efficitur curabitur tristique diam.</p>
+			</article>
+			<img src="images/widdot.png" class="dots">
+			<article>
+				<img src="images/wid4.png" class="iconos">
+				<h2>Get Domain Name</h2>
+				<p>Nunc lacinia non diam eget efficitur curabitur tristique diam.</p>
+			</article>
+		</div>
 	</section>
 	<section class="services">
-		<img src="images/threedot.png">
-		<article>
-			<h2>Hostro Services</h2>
-			<h4>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</h4>
-		</article>
-		<article class="subh4">
-			<h3 class="subh3">Retina Ready</h3>
-			<h4>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</h4>
-			<img src="images/ser1.png">
-		</article>
-		<article class="subh4">
-			<h3 class="subh3">Easy Customize</h3>
-			<h4>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</h4>
-			<img src="images/ser2.png">
-		</article>
-		<article class="subh4">
-			<h3 class="subh3">Pixel Perfect</h3>
-			<h4>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</h4>
-			<img src="images/ser3.png">
-		</article>
-		<img src="images/iphone2.png">
-		<article  class="subh4">
-			<h3 class="subh3">Unlimited Colors</h3>
-			<h4>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</h4>
-			<img src="images/ser4.png">
-		</article>
-		<article class="subh4">
-			<h3 class="subh3">Features</h3>
-			<h4>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</h4>
-			<img src="images/ser5.png">
-		</article>
-		<article class="subh4">
-			<h3 class="subh3">Support Today</h3>
-			<h4>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</h4>
-			<img src="images/ser6.png">
-		</article>
+		<div class="contenedor">
+			<img src="images/threedot.png" class="bluedots">
+			<article class="hostro">
+				<h1>Hostro Services</h1>
+				<h4>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</h4>
+			</article>
+			<div class="services1">
+				<div class="servicesa">
+					<article class="subh2">
+						<h2>Retina Ready</h2>
+						<p>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</p>
+						<img src="images/ser1.png">
+					</article>
+					<article class="subh2">
+						<h2>Easy Customize</h2>
+						<p>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</p>
+						<img src="images/ser2.png">
+					</article>
+					<article class="subh2">
+						<h2>Pixel Perfect</h2>
+						<p>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</p>
+						<img src="images/ser3.png">
+					</article>
+					<!--<div class="iconos">
+						<img src="images/ser1.png">
+						<img src="images/ser2.png">
+						<img src="images/ser3.png">
+					</div> -->
+				</div>
+				<div class="iphone"><img src="images/iphone2.png"></div>
+				<div class="servicesb">
+					<article  class="subh4">
+						<h2>Unlimited Colors</h2>
+						<p>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</p>
+						<img src="images/ser4.png">
+					</article>
+					<article class="subh4">
+						<h2>Features</h2>
+						<p>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</p>
+						<img src="images/ser5.png">
+					</article>
+					<article class="subh4">
+						<h2>Support Today</h2>
+						<p>Maecenas nunc tellus, cursus euismod velit eget, auctor eusimod</p>
+						<img src="images/ser6.png">
+					</article>
+				</div>
+			</div>
+		</div>
 	</section>
-	<img src="images/pricing-bg.jpg">
-	<section>
-		<img src="images/threedot.png">
-		<article class="services">
-			<h2>Pricing Tables</h2>
-			<h4>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</h4>
-		</article>
-		<article class="packages">
-			<h5>Small Package</h5>
-			<h1><span class="potencia">$</span>15<span class="potencia">.99</span></h1>
-			<h6>/mount</h6>
-			<table>
-				<tr>
-					<td>Hard drive, GB</td>
-					<td class="celeste">2</td>
-				</tr>
-				<tr>
-					<td>Transfer, GB</td>
-					<td class="celeste">1</td>
-				</tr>
-				<tr>
-					<td>Data Bases</td>
-					<td class="celeste">1</td>
-				</tr>
-				<tr>
-					<td>Dashboards</td>
-					<td class="celeste">1</td>
-				</tr>
-			</table>
-			<input id="submit" type="submit" value="Select Plan">
-		</article>
-		<article class="packages">
-			<h5>Normal Package</h5>
-			<h1><span class="potencia">$</span>49<span class="potencia">.99</span></h1>
-			<h6>/mount</h6>
-			<table>
-				<tr>
-					<td>Hard drive, GB</td>
-					<td class="amarillo">5</td>
-				</tr>
-				<tr>
-					<td>Transfer, GB</td>
-					<td class="amarillo">2</td>
-				</tr>
-				<tr>
-					<td>Data Bases</td>
-					<td class="amarillo">2</td>
-				</tr>
-				<tr>
-					<td>Dashboards</td>
-					<td class="amarillo">2</td>
-				</tr>
-			</table>
-			<input id="submit" type="submit" value="Select Plan">
-		</article>
-		<article class="packages">
-			<h5>Big Package</h5>
-			<h1><span class="potencia">$</span>99<span class="potencia">.99</span></h1>
-			<h6>/mount</h6>
-			<table>
-				<tr>
-					<td>Hard drive, GB</td>
-					<td class="naranja">10</td>
-				</tr>
-				<tr>
-					<td>Transfer, GB</td>
-					<td class="naranja">3</td>
-				</tr>
-				<tr>
-					<td>Data Bases</td>
-					<td class="naranja">3</td>
-				</tr>
-				<tr>
-					<td>Dashboards</td>
-					<td class="naranja">3</td>
-				</tr>
-			</table>
-			<input id="submit" type="submit" value="Select Plan">
-		</article>
-		<article class="packages">
-			<h5>Best Package</h5>
-			<h1><span class="potencia">$</span>199<span class="potencia">.99</span></h1>
-			<h6>/mount</h6>
-			<table>
-				<tr>
-					<td>Hard drive, GB</td>
-					<td class="rojo">15</td>
-				</tr>
-				<tr>
-					<td>Transfer, GB</td>
-					<td class="rojo">4</td>
-				</tr>
-				<tr>
-					<td>Data Bases</td>
-					<td class="rojo">4</td>
-				</tr>
-				<tr>
-					<td>Dashboards</td>
-					<td class="rojo">4</td>
-				</tr>
-			</table>
-			<input id="submit" type="submit" value="Select Plan">
-		</article>
+	<div class="contenedor">
+		<img src="images/pricing-bg.jpg" class="background-middle">
+	</div>
+	<section class="pricing">
+		<div class="contenedor">
+			<img src="images/threedot.png" class="bluedots">
+			<article class="services">
+				<h1>Pricing Tables</h1>
+				<h4>Duis egestas nibh at ex ornare efficitur fusce ullamcorper turpis eu lectus</h4>
+			</article>
+			<article class="packages">
+				<h2>Small Package</h2>
+				<h3><span class="potencia">$</span>15<span class="potencia">.99</span></h3>
+				<h6>/mount</h6>
+				<table>
+					<tr>
+						<td>Hard drive, GB</td>
+						<td class="celeste">2</td>
+					</tr>
+					<tr>
+						<td>Transfer, GB</td>
+						<td class="celeste">1</td>
+					</tr>
+					<tr>
+						<td>Data Bases</td>
+						<td class="celeste">1</td>
+					</tr>
+					<tr>
+						<td>Dashboards</td>
+						<td class="celeste">1</td>
+					</tr>
+				</table>
+				<input id="submit" type="submit" value="Select Plan">
+			</article>
+			<article class="packages">
+				<h2>Normal Package</h2>
+				<h3><span class="potencia">$</span>49<span class="potencia">.99</span></h3>
+				<h6>/mount</h6>
+				<table>
+					<tr>
+						<td>Hard drive, GB</td>
+						<td class="amarillo">5</td>
+					</tr>
+					<tr>
+						<td>Transfer, GB</td>
+						<td class="amarillo">2</td>
+					</tr>
+					<tr>
+						<td>Data Bases</td>
+						<td class="amarillo">2</td>
+					</tr>
+					<tr>
+						<td>Dashboards</td>
+						<td class="amarillo">2</td>
+					</tr>
+				</table>
+				<input id="submit" type="submit" value="Select Plan">
+			</article>
+			<article class="packages">
+				<h2>Big Package</h2>
+				<h3><span class="potencia">$</span>99<span class="potencia">.99</span></h3>
+				<h6>/mount</h6>
+				<table>
+					<tr>
+						<td>Hard drive, GB</td>
+						<td class="naranja">10</td>
+					</tr>
+					<tr>
+						<td>Transfer, GB</td>
+						<td class="naranja">3</td>
+					</tr>
+					<tr>
+						<td>Data Bases</td>
+						<td class="naranja">3</td>
+					</tr>
+					<tr>
+						<td>Dashboards</td>
+						<td class="naranja">3</td>
+					</tr>
+				</table>
+				<input id="submit" type="submit" value="Select Plan">
+			</article>
+			<article class="packages">
+				<h2>Best Package</h2>
+				<h3><span class="potencia">$</span>199<span class="potencia">.99</span></h3>
+				<h6>/mount</h6>
+				<table>
+					<tr>
+						<td>Hard drive, GB</td>
+						<td class="rojo">15</td>
+					</tr>
+					<tr>
+						<td>Transfer, GB</td>
+						<td class="rojo">4</td>
+					</tr>
+					<tr>
+						<td>Data Bases</td>
+						<td class="rojo">4</td>
+					</tr>
+					<tr>
+						<td>Dashboards</td>
+						<td class="rojo">4</td>
+					</tr>
+				</table>
+				<input id="submit" type="submit" value="Select Plan">
+			</article>
+		</div>	
+	</section>
+	<section class="bottom">
+		<div class="contenedor">
+			<div class="hosting">
+				<h2>Hosting use <span class="destacado">500,000</span> happy customers. Want to see services?</h2>
+			</div>
+		</div>
 	</section>
 	<footer>
-		<div>
-			<h2>Hosting use <span class="destacado">500,000</span> happy customers. Want to see services?</h2>
-		</div>
-		<div>
+		<div class="contenedor">
 			<h6>©2015 Hostro. All right reserved</h6>
-			<nav>
-				<a href="home.html">
-					Home
-				</a>
-				<a href="contact.html">
-					Contact
-				</a>
-				<a href="#arriba">^</a>
-			</nav>
+				<nav>
+					<ul>
+						<li>
+							<a href="index.html">
+							Home
+							</a>
+						</li>
+						<li>	
+							<a href="contact.html">
+								Contact
+							</a>
+						</li>	
+						<li>
+							<a class="ion-chevron-up" href="#arriba"></a>
+						</li>
+					</ul>	
+				</nav>
 		</div>
 	</footer>
-
-	
 </body>
 </html>

@@ -1,138 +1,350 @@
-.inicio	a {	
-	font-family: Raleway;
-	font-weight: 700;
-	font-size: 10px;
-	text-transform: uppercase;
-
+.contenedor {
+	max-width: 1000px;
+	margin: auto;
 }
-nav h1 {
+
+.inicio ul li a{
 	font-family: Raleway;
 	font-weight: 800;
-	font-size: 40px;
-}
-
-nav h3	{
-	font-family: Raleway;
-	font-weight: 400;
-	font-size: 18px;
-}
-#searchbox {
-	font-family: Raleway;
-	font-weight: 400;
-}
-
-.wid article h2{
-	font-family: Open Sans;
-	font-weight: 700;
-	font-size: 20px;
+	text-decoration: none;
+	color: #333333;
 	text-transform: uppercase;
+	font-size: 12px;
 	letter-spacing: 2px;
+	margin: 5px 10px;
+	
 }
 
-section article p {	
-	font-family: Raleway;
-	font-weight: 400;
-	font-size: 15px;
+.inicio ul li a:hover {
+	color: #adb2b6;
 }
 
-.services h2 {
+.inicio ul li {
+	display: inline-block;
+}
+
+.inicio ul {
+	float: right;
+}
+
+.contenedor {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.background-header {
+	position: absolute;
+    margin-left: -555px;
+    }
+
+header h1 {
 	font-family: Raleway;
 	font-weight: 700;
 	font-size: 50px;
-}
-.services h4 {	
-	font-family: Raleway;
-	font-weight: 400;
-	font-size: 20px;
+	position: relative;
+	color: #ffffff;
+	padding-top: 200px;
+
 }
 
-.subh4 h4 {
+header h3 {
 	font-family: Raleway;
 	font-weight: 400;
-	font-size: 15px;
-}
-
-.subh3 {
-	font-family: Raleway;
-	font-weight: 700;
 	font-size: 18px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
+	position: relative;
+	color: #ffffff;
+	max-width: 450px;
+    margin-top: 26px;
+    line-height: 45px;
 }
-.packages h5 {
+
+#submit.busqueda {
+	background: #45B0FC;
+    height: 85px;
+    width: 160px;
+    border: none;
+    text-transform: uppercase;
+    font-family: Open sans;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    position: relative;
+    margin-left: -4px;
+}
+
+div #search {
+	height: 80px;
+    width: 823px;
+    font-family: Raleway;
+    font-size: 15px;
+    padding-left: 10px;
+    position: relative;
+    margin-top: 285px;
+}
+
+.wid article h2, .services article h2, .pricing article h2{
 	font-family: Raleway;
 	font-weight: 700;
 	font-size: 15px;
 	text-transform: uppercase;
-	letter-spacing: 2px;
-}
-
-.packages h1 {
-	font-family: Open Sans;
-	font-weight: 700;
-	font-size: 40px;
 	letter-spacing: 1px;
+
 }
 
-.packages h6 {
-	font-family: Raleway;
-	font-weight: 400;
-	font-size: 10px;
+.wid .contenedor{
+	display: flex;
+	text-align: center;
+	margin-top: 130px;
 }
 
-.potencia {
-	font-size: 20px;
+.wid article h2 {
+	margin-top: 30px;
 }
 
-.packages table {
+.wid article p {
+	margin-top: 30px;
+	line-height: 20px;	
+}
+
+.dots {
+	max-height: 35px;
+	transform: rotate(90deg);
+	margin-top: 30px;
+}
+
+.wid article p, .services article p, .pricing article table tr td, .pricing article h6{
 	font-family: Raleway;
 	font-weight: 400;
 	font-size: 12px;
 }
 
-.celeste {
-	color: #67d6ff;
+.bluedots {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 50px;
+    margin-bottom: 20px;
 }
 
-.amarillo {
-	color: #f9d423;
+.hostro {
+	text-align: center;	
 }
 
-.naranja {
-	color: #ff9359;
+.hostro h4 {
+	margin-top: 40px;
+	margin-bottom: 90px;
 }
 
-.rojo {
-	color: #f75f40;	
+.services article h1, .pricing article h1 {
+	font-family: Raleway;
+    font-weight: 700;
+    font-size: 40px;
 }
-.destacado	{
+
+.services article h4, .pricing article h4 {
+	font-family: Raleway;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.services1 {
+	display: flex;
+	justify-content: space-between;
+}
+
+.servicesa, .servicesb {
+	max-width: 270px;
+}
+.subh2 {
+	text-align: right;
+
+}
+
+.subh2 h2 {
+	line-height: 70px;
+}
+
+.subh2 p {
+	line-height: 30px;
+}
+
+.subh4 h2 {
+	line-height: 70px;
+}
+
+.subh4 p {
+	line-height: 30px;
+}
+
+/*.subh2 h2 {
+	max-width: 200px;
+}
+
+.subh2 p {
+	max-width: 200px;
+}*/
+
+.background-middle {
+	
+    margin-left: -555px;
+}
+
+.pricing h3 {
 	font-family: Open sans;
-	color:#01aff4;
 	font-weight: 700;
+	font-size: 50px;
 }
 
-footer div h2 {	
+.pricing div article h1, .pricing div article h4 {
+	text-align: center;
+	line-height: 70px;
+}
+
+.potencia {
+	font-family: Open sans;
+	font-weight: 700;
+	font-size: 20px;
+	vertical-align: top;
+}
+
+.pricing div article.packages {
+	display: inline-block;
+	margin: 7px;
+}
+
+.packages {
+	box-shadow: 1px 1px 1px 2px #d6d6d6;
+	padding: 35px;
+}
+
+.packages h2{
+	line-height: 120px;
+	text-align: center;
+}
+
+.packages h3 {
+	text-align: center;
+}
+
+.packages h6 {
+	text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing div article table tr td.celeste {
+	color: #00d2fe;
+	padding-left: 70px;
+}
+
+.pricing div article table tr td.amarillo {
+	color: #f1dd00;
+	padding-left: 70px;
+}
+
+.pricing div article table tr td.naranja {
+	color: #f99059;
+	padding-left: 70px;
+}
+
+.pricing div article table tr td.rojo {
+	color: #fd593e;
+	padding-left: 70px;
+}
+
+.pricing div article table tr td {
+	line-height: 40px;
+
+}
+
+.pricing div article input#submit {
+	background: #45B0FC;
+	height: 45px;
+    width: 163px;
+    font-family: Open sans;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 11px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 20px;
+}
+
+/*footer div h2 {
+	font-family: Raleway;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+}*/
+
+.hosting h2 {
+	font-family: Raleway;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.destacado {
+	font-family: Open sans;
+    font-weight: 700;
+    font-size: 30px;
+    color: #45B0FC;
+}
+
+.bottom {
+	background: #142e3f;
+}
+
+footer div h6 {
 	font-family: Raleway;
 	font-weight: 400;
-	color:#ffffff;
-	background-color:#142E3F;
+	font-size: 15px;
+	color: #ffffff;
+}
+
+.hosting {
+	text-align: center;
+}
+
+footer div nav ul li {
+	display: inline-block;
 
 }
 
-footer div h6 {	
-	font-family: Raleway;
-	font-weight: 400;
-	color:#ffffff;
-	background-color: #091722;
+footer div nav ul {
+	float: right;
 }
 
-footer a {
+footer div nav a, .ion-chevron-up {
 	font-family: Raleway;
-	font-weight: 700;
-	font-size: 10px;
-	color:#ffffff;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    color: #ffffff;
 }
 
 footer {
-	background-color: #091722;
+	background: #091722;
+	
 }
+
+.iconos {
+	transition: 1.3s ease-in-out;
+}
+
+.iconos:hover {
+	transform: scale(1.25);
+
+}
+
+@media screen and (max-width: 977px) and (min-width: 768px) {
+
+	.wid article{ 
+		display: block;
+	}
+	.packages {
+		padding: 34px 127px;
+
+	}

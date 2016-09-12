@@ -1,0 +1,245 @@
+.contenedor {
+	margin: auto;
+	max-width: 1000px;
+}
+
+.inicio	a {	
+	font-family: Raleway;
+	font-weight: 700;
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+
+li	{
+	display: inline-block;
+	margin: 5px 15px;
+}
+
+.menu {
+	float: right;
+	margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: #333333;
+	text-transform: uppercase;
+	text-decoration-style: bold;
+}
+
+.menu li a:hover {
+	color: #C0C0C0;
+}
+
+/*.menu li a:active {
+	color: #333333;
+}*/
+
+.background-header {
+	position: absolute;
+	left: -138px;
+
+}
+
+div #submit {
+	background: #45B0FC;
+    height: 102px;
+    width: 160px;
+    border: none;
+    text-transform: uppercase;
+    font-family: Open sans;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    position: relative;
+    left: 276px;
+    top:-320px;
+}
+
+div #search {
+	height: 99px;
+    width: 910px;
+    font-family: Raleway;
+    font-size: 15px;
+    position: relative;
+    top: -320px;
+    left: 280px;
+    border:none;
+    box-shadow: 2px 2px 2px #888888;
+    
+
+}
+
+nav	{
+	padding: 15px;
+}
+
+nav h1 {
+	font-family: Raleway;
+	font-weight: 800;
+	font-size: 40px;
+	display: inline-block;
+    position: relative;
+    top: -550px;
+    color: white;
+}
+
+nav h3	{
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 18px;
+	position: relative;
+    top: -530px;
+    color: white;
+    width: 470px;
+    line-height: 60px;
+}
+
+nav img {
+	margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+#searchbox {
+	font-family: Raleway;
+	font-weight: 400;
+}
+
+.wid article h2{
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.wid article {
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+}
+
+.wid img {
+	transform: rotate(90deg);
+	padding: 0 43px;
+}
+
+.hostro	{
+	text-align: center;
+}
+
+section article p {	
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.services h2 {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 50px;
+}
+.services h4 {	
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 20px;
+	display: inline-block;
+	position: relative;
+}
+
+.subh4 h4 {
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.iphone {
+	position: relative;
+}
+
+.subh3 {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.packages h5 {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.packages h1 {
+	font-family: Open Sans;
+	font-weight: 700;
+	font-size: 40px;
+	letter-spacing: 1px;
+}
+
+.packages h6 {
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 10px;
+}
+
+.potencia {
+	font-size: 20px;
+}
+
+.packages table {
+	font-family: Raleway;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.celeste {
+	color: #67d6ff;
+}
+
+.amarillo {
+	color: #f9d423;
+}
+
+.naranja {
+	color: #ff9359;
+}
+
+.rojo {
+	color: #f75f40;	
+}
+.destacado	{
+	font-family: Open sans;
+	color:#01aff4;
+	font-weight: 700;
+}
+
+footer div h2 {	
+	font-family: Raleway;
+	font-weight: 400;
+	color:#ffffff;
+	background-color:#142E3F;
+
+}
+
+footer div h6 {	
+	font-family: Raleway;
+	font-weight: 400;
+	color:#ffffff;
+	background-color: #091722;
+}
+
+footer a {
+	font-family: Raleway;
+	font-weight: 700;
+	font-size: 10px;
+	color:#ffffff;
+}
+
+footer {
+	background-color: #091722;
+}
